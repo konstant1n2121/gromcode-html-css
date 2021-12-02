@@ -14,25 +14,30 @@
       li {
         margin-bottom: 16px;
       }
-      [target][_blank] {
+      [href][target] {
         border: 2px solid black;
+        font-size: 24px;
       }
 
-      a[href^='broken'] {
+      a[href^="broken"] {
         border: 2px solid red;
       }
 
-      a[href$='com'] {
+      a[href$="com"] {
         margin-left: 50px;
       }
 
-      a[href*='www'] {
+      a[href*="www"] {
         color: green;
       }
-      a[title~='popular'] {
+      a[title~="popular"]{
         font-size: 24px;
       }
-      [lang|='en'] {
+      a[title~="super-popular"]{
+        font-size: 24px;
+      }
+
+      [lang|="en"] {
         font-size: 10px;
       }
     </style>
