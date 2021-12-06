@@ -10,25 +10,53 @@
       crossorigin="anonymous"
     />
     <style>
-      [type='checkbox']:checked {
-        margin-left: 50px;
+      body {
+        background-color: #bdc3c7;
       }
 
-      label {
-        text-transform: uppercase;
+      h1 {
+        color: #9b59b6;
       }
 
-      #special::first-letter {
-        color: green;
-        font-size: 100px;
-      }
-
-      h1:hover {
+      li {
         color: blue;
       }
 
-      a:visited {
-        color: gray;
+      p {
+        background-color: yellow;
+      }
+
+      [type='text'] {
+        border: 3px solid red;
+        background-color: gray;
+      }
+
+      [type='password'] {
+        border: 3px solid red;
+      }
+
+      .hello {
+        background-color: white;
+      }
+
+      #special {
+        border: 2px solid blue;
+      }
+
+      div > p {
+        font-size: 25px;
+      }
+
+      em {
+        color: white;
+        font-size: 20px;
+      }
+      .awesome {
+        background-color: yellow;
+      }
+
+      .second {
+        border: 5px solid white;
       }
     </style>
   </head>
@@ -63,7 +91,7 @@
     <div>
       <h2>I am another awesome h2</h2>
 
-      <p>
+      <p class="awesome">
         Tom Sawyer's best friends include Joe Harper and
         <em>Huckleberry</em> Finn. In The Adventures of Tom Sawyer, Tom's
         infatuation with classmate Becky Thatcher is apparent as he tries to
@@ -72,7 +100,7 @@
         classmates
       </p>
 
-      <p>I'm the second paragraph inside this div!</p>
+      <p class="second">I'm the second paragraph inside this div!</p>
     </div>
 
     <p>PARAGRAPH NOT INSIDE A DIV</p>
