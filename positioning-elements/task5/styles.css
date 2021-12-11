@@ -5,13 +5,10 @@
   position: fixed;
 }
 
-.navigation {
-  height: 40px;
-}
 
-.nav-list {
-  height: 40px;
-}
+
+
+
 
 .nav-item {
   display: flex;
