@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .header {
   background-color: darkturquoise;
   height: 40px;
@@ -40,7 +44,7 @@
   background-color: brown;
   height: 60px;
   width: 40px;
-  position: relative;
+  position: absolute;
 }
 
 .ear_right {
@@ -50,21 +54,21 @@
 
 .ear_left {
   left: -40px;
-  top: -120px;
+  top: -59px;
 }
 
 .eye {
   border-radius: 30px;
   background-color: grey;
-  position: static;
+  position: relative;
   padding: 20px;
-  margin-top: -40px;
+  margin-top: 80px;
 }
 .eye_left {
-  margin-left: 20px;
+  margin-left: 40px;
   float: left;
 }
 .eye_right {
-  margin-right: 20px;
+  margin-right: 40px;
   float: right;
 }
