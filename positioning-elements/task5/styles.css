@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .header {
   background-color: darkturquoise;
   height: 40px;
@@ -6,15 +10,14 @@
 }
 
 .navigation {
-    height: 40px;
+  height: 40px;
 }
 
 .nav-item {
   display: flex;
-  flex-direction: row;
+ 
   float: left;
   color: white;
-
   align-items: center;
   line-height: 50%;
   margin-left: 16px;
