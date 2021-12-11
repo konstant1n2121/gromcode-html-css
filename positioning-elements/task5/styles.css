@@ -1,5 +1,5 @@
 .header {
-  background-color: turquoise;
+  background-color: darkturquoise;
   height: 40px;
   width: 100%;
   position: fixed;
@@ -13,7 +13,7 @@
   height: 40px;
   margin-left: 16px;
   line-height: 50%;
-  height: 40px;
+  
 }
 
 .nav-item {
