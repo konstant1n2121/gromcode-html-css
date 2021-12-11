@@ -19,9 +19,10 @@
   float: left;
   color: white;
   margin-top: 0px;
-  height: 40px;
-  line-height: 50%;
+  align-items: center;
+  line-height: ;
   margin-left: 16px;
+
 }
 
 .content {
