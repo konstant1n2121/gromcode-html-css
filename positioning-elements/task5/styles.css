@@ -18,9 +18,9 @@
   flex-direction: row;
   float: left;
   color: white;
-  width: 6em;
+
   height: 40px;
-  line-height: 50%;
+  line-height: 20%;
   margin-left: 16px;
 }
 
