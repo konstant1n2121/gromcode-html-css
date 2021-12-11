@@ -5,6 +5,10 @@
   position: fixed;
 }
 
+.navigation {
+    height: 40px;
+}
+
 .nav-item {
   display: flex;
   flex-direction: row;
