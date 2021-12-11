@@ -13,7 +13,6 @@
   height: 40px;
   margin-left: 16px;
   line-height: 50%;
-  
 }
 
 .nav-item {
@@ -32,7 +31,7 @@
   width: 200px;
   background-color: aquamarine;
   position: relative;
-  top: 200px;
+  top: 150px;
   margin-left: auto;
   margin-right: auto;
 }
