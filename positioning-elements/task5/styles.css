@@ -18,7 +18,7 @@
   flex-direction: row;
   float: left;
   color: white;
-
+margin-top: auto;
   height: 40px;
   line-height: 50%;
   margin-left: 16px;
@@ -34,7 +34,7 @@
   width: 200px;
   background-color: aquamarine;
   position: relative;
-  top: 100px;
+  top: 250px;
   margin-left: auto;
   margin-right: auto;
 }
