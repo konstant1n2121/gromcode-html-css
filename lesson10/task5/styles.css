@@ -1,19 +1,23 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 header {
-  text-align: center;
+    text-align: center;
 }
 
-.article {
-  margin: 8px;
-  padding: 16px;
-  background-color: bisque;
-  min-width: 300px;
-}
-
-.article-list {
+.articles-list {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+
+
+.article {
+    flex: 1;
+    background-color: bisque;
+    margin: 8px;
+    padding: 16px;
+    min-width: 300px;
 }
