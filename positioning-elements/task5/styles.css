@@ -60,9 +60,9 @@
 .eye {
   border-radius: 30px;
   background-color: grey;
-  position: relative;
+
   padding: 15px;
-  margin-top: -40px;
+  margin-top: -35px;
 }
 .eye_left {
   margin-left: 40px;
