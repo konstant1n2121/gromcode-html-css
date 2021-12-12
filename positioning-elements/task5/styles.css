@@ -1,71 +1,79 @@
-
-
 .header {
-  background-color: darkturquoise;
-  height: 40px;
-  width: 100%;
-  position: fixed;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: darkturquoise;
+    z-index: 5;
 }
 
-.navigation {
-  height: 40px;
+nav {
+    display: flex;
+    align-items: center;
 }
 
-.nav-item {
-  display: flex;
-
-  float: left;
-  color: white;
-
-  line-height: 50%;
-  margin-left: 16px;
+nav ul {
+    display: flex;
+    /* margin-left: 36px; */
+    /* list-style: none; */
+    height: 40px;
 }
 
-.content {
-  background-color: beige;
-  height: 5000px;
+nav ul li {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    color: white;
+    height: 100%;
+}
+
+main {
+    height: 5000px;
+    background-color: beige;
 }
 
 .head {
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  background-color: aquamarine;
-
-  margin-left: 45%;
-  margin-right: auto;
-  margin-top: 150px;
+    height: 200px;
+    width: 200px;
+    background-color: #7effd4;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 .ear {
-  background-color: brown;
-  height: 60px;
-  width: 40px;
-  position: relative;
-}
-
-.ear_right {
-  left: 200px;
-
-  top: -60px;
-}
-
-.ear_left {
-  left: -40px;
-  top: -118px;
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    background-color: brown;
 }
 
 .eye {
-  border-radius: 30px;
-  background-color: grey;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: grey;
+}
 
-  padding: 15px;
-  margin-top: -35px;
+.ear_left {
+    left: -40px;
+    top: -60px;
 }
+
+.ear_right {
+    top: -60px;
+    left: 200px;
+}
+
 .eye_left {
-  margin-left: 40px;
-  float: left;
+    top: 80px;
+    left: 40px;
 }
+
 .eye_right {
-  margin-right: 40px;
-  float: right;
+    top: 80px;
+    right: 40px;
 }
