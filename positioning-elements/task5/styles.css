@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.header  {
+.header {
   background-color: darkturquoise;
   height: 40px;
   width: 100%;
@@ -13,13 +13,12 @@
   height: 40px;
 }
 
-
 .nav-item {
   display: flex;
 
   float: left;
   color: white;
-  
+
   line-height: 50%;
   margin-left: 16px;
 }
