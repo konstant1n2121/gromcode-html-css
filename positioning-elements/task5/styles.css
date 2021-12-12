@@ -62,7 +62,7 @@
 .eye {
   border-radius: 30px;
   background-color: grey;
-  position: relative;
+  position: static;
   padding: 15px;
   margin-top: -40px;
 }
