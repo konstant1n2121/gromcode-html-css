@@ -8,7 +8,7 @@ header {
 
 .articles-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .article {
@@ -16,5 +16,5 @@ header {
   background-color: bisque;
   margin: 8px;
   padding: 16px;
-  min-width: 300px;
+  flex-basis: 300px;
 }
