@@ -15,7 +15,7 @@
 
 .nav-item {
   display: flex;
- 
+
   float: left;
   color: white;
   align-items: center;
@@ -29,30 +29,34 @@
 }
 
 .head {
+  display: inline-block;
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  position: relative;
-  top: 150px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
+  
+  margin-left: 40%;
+  margin-right: auto;
+  margin-top: 150px;
+  
+  
+}
 .ear {
   background-color: brown;
   height: 60px;
   width: 40px;
-  position: absolute;
+  position: relative;
 }
 
 .ear_right {
   left: 200px;
+
   top: -60px;
 }
 
 .ear_left {
   left: -40px;
-  top: -59px;
+  top: -118px;
 }
 
 .eye {
@@ -60,7 +64,7 @@
   background-color: grey;
   position: relative;
   padding: 15px;
-  margin-top: 80px;
+  margin-top: -30px;
 }
 .eye_left {
   margin-left: 40px;
