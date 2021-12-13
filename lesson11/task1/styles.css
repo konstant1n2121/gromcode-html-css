@@ -1,0 +1,11 @@
+.container > div:nth-child(1) {
+  display: none;
+}
+
+.container > div:nth-child(2) {
+  display: hidden;
+}
+
+.container > div:nth-child(3) {
+  display: visible;
+}
