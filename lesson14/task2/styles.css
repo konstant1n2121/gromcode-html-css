@@ -1,0 +1,8 @@
+body .rectangle {
+  background-color: blueviolet;
+}
+
+body .text::first-letter {
+  color: green;
+  font-size: 24px;
+}
