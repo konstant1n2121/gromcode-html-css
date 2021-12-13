@@ -4,7 +4,10 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  
+}
+div > div {
+  border: 1px dotted grey;
+  margin: 16px;
 }
 
 .gallery {
