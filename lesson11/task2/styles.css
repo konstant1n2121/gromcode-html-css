@@ -16,7 +16,7 @@
 .cropped {
   overflow: hidden;
 }
-.both.scrolls {
+.both-scrolls {
   overflow: scroll;
   overflow: all-scroll;
 }
