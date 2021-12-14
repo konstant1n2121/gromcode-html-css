@@ -6,11 +6,12 @@
   width: 100px;
   height: 100px;
   background-color: coral;
-  text-align: center;
+  line-height: 100px;
   margin-bottom: 16px;
   opacity: 0.5;
+   text-align: center;
   transition-property: width;
-  transition-duration: 4s;
+  transition-duration: 2s, 0.5s;
 }
 
 .rect:hover {
