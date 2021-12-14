@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+.block {
+  position: absolute;
+  left: calc(50vw - 125px);
+  top: -100px;
+  text-align: center;
+  line-height: 100px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: coral;
+  animation: move 2s;
+  animation-direction: ease;
+  animation-fill-mode: both;
+}
+
+@keyframes move {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 50%;
+  }
+}
