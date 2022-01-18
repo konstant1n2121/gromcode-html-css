@@ -13,11 +13,12 @@ undefined + '5';
 7 - null;
 5 - undefined;
 'text' + null;
+let num = 17;
 
 // Постфиксная и префиксная форма записи
-let num = 17;
- ++num;
- num++;
+
+++num;
+num++;
 
 // математические операторы приводят операнды к числам
 const a = 17;
@@ -45,8 +46,8 @@ console.log("undefined + '5':", undefined + '5');
 console.log('7 - null:', 7 - null);
 console.log('5 - undefined:', 5 - undefined);
 console.log("'text' + null:", 'text' + null);
-console.log("++num: ", ++num);
-console.log("num++: ", num++);
+console.log('++num:', ++num);
+console.log('num++:', num++);
 console.log("'24' / 4:", '24' / 4);
 console.log("18 * '3':", 18 * '3');
 console.log("'9' - '3':", '9' - '3');
