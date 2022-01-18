@@ -28,10 +28,11 @@ undefined && null && 0 && '' && null;
 !true;
 !false;
 !'text';
+// eslint-disable-next-line no-unused-expressions
 !!'text';
 
 console.log('false || true:', false || true);
-console.log('false || true || false:', false || true || false);
+console.log("false || true || false:", false || true || false);
 console.log('false || false || false:', false || false || false);
 console.log('false && true:', false && true);
 console.log('false && true && false:', false && true && false);
