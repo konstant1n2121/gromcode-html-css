@@ -1,0 +1,7 @@
+Delete `␍`eslint
+Unexpected var, use let or const instead.eslint
+Expected '===' and instead saw '=='.eslint
+'c' is not defined.eslint
+Unary operator '++' used.eslint
+Return statement should not contain assignment.eslint
+Delete `␍`eslint
