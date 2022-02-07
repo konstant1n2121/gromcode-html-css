@@ -1,4 +1,4 @@
-.container {
+.content{
   display: flex;
   flex-direction: column;
 }
@@ -36,7 +36,7 @@ span {
   text-transform: lowercase;
   margin: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: auto;
+  
 }
 
 @media screen and (min-width: 600px) {
@@ -46,7 +46,7 @@ span {
     flex: 2;
   }
 }
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 900px) {
   .content {
     flex-direction: row;
   }
