@@ -1,22 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+}
+
 .navigation {
-  background-color: #fa8;
+  background-color: #ff7f50;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .products-list {
-  background-color: #8af;
+  background-color: #006400;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .news {
-  background-color: #a18;
+  background-color: #0ff;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex: 1;
 }
 
 span {
@@ -25,16 +35,19 @@ span {
   border-radius: 4px;
   text-transform: lowercase;
   margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
 }
 
 @media screen and (min-width: 600px) {
   .products {
-    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
     flex: 2;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 899px) {
   .content {
-    display: flex;
+    flex-direction: row;
   }
 }
