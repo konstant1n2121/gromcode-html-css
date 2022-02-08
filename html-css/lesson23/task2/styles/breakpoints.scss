@@ -23,7 +23,7 @@ $unit: 8px;
 }
 
 @mixin for-horizontal {
-  @media screen and (orietetion: landscape) {
+  @media screen and (orientation: landscape) {
     @content;
   }
 }
