@@ -37,7 +37,7 @@ html {
 
 .nav-list-item {
   background-color: #808080;
-  
+
   line-height: 2em;
   margin-bottom: 0.5em;
   overflow: hidden;
@@ -48,18 +48,18 @@ html {
 }
 
 .nav-list-link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
-@media screen and(max-width: 600px) {
-    .navigation {
-        display: none;
-    }
+@media screen and (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
 }
 
-@media screen and(min-width: 599px) {
-    .head_button {
-        display: none;
-    }
+@media screen and (min-width: 599px) {
+  .nav-list-item {
+    display: hidden;
+  }
 }
