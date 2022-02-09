@@ -1,0 +1,8 @@
+$small: 600px;
+$large: 900px;
+
+@mixin breakpoint($viewport) {
+  @media (min-width: $viewport) {
+    @content;
+  }
+}
