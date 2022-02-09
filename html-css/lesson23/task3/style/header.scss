@@ -25,6 +25,7 @@
     &_active {
       color: yellow;
       position: relative;
+      margin: 0;
       &:hover > .submenu {
         display: grid;
       }
