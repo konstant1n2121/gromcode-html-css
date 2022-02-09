@@ -7,20 +7,21 @@
   align-items: center;
   text-transform: uppercase;
   list-style-type: none;
+  margin-left: 3em;
   padding: 0;
   margin: 0;
+  margin-left: 3em;
   cursor: pointer;
 }
 .menu__item {
   display: flex;
   align-items: center;
+  text-align: center;
   height: 3em;
   padding: 0;
-  text-align: left;
   padding-left: 8px;
   padding-right: 8px;
   color: white;
-  margin-left: 3em;
 }
 .menu__item_active {
   color: yellow;
@@ -36,7 +37,7 @@
 .submenu {
   position: absolute;
   top: 48px;
-  margin: 0%;
+  margin: 0;
   padding: 0;
   display: none;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
@@ -53,6 +54,10 @@
 .submenu__item:hover {
   color: black;
   padding: 8px;
+}
+
+.menu-item {
+  margin-right: 10px;
 }
 
 * {
