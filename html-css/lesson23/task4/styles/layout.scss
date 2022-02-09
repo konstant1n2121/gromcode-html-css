@@ -1,8 +1,42 @@
-$small: 600px;
-$large: 900px;
-
-@mixin breakpoint($viewport) {
-  @media (min-width: $viewport) {
-    @content;
+.products {
+  &__navigation {
+    background-color: #ff7f50;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
   }
+  &__products-list {
+    background-color: #006400;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+  }
+
+  &__news {
+    background-color: #0ff;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+  }
+}
+
+@media (min-width: 600px) {
+  .products {
+    display: flex;
+    flex: 1;
+  }
+}
+
+@media (min-width: 900px) {
+  .content {
+    display: flex;
+    flex: 1;
+  }
+}
+span {
+  margin: auto;
+  background-color: #faebd7;
+  padding: 8px;
+  border-radius: 4px;
+  text-transform: lowercase;
 }

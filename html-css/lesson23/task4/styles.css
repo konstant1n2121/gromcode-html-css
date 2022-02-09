@@ -1,78 +1,49 @@
-.container {
-  display: flex;
-  flex-direction: column;
-}
-@media (min-width: 900px) {
-  .container {
-    flex-direction: row;
-  }
-}
-
-.header {
-  display: flex;
-  flex-direction: column;
-}
-@media (min-width: 600px) {
-  .header {
-    flex-direction: row;
-  }
-}
-@media (min-width: 900px) {
-  .header {
-    flex-direction: row;
-    flex: 1;
-  }
-}
-
-.section {
-  display: flex;
-  min-height: 200px;
-}
-
-.navigation {
+.products__navigation {
   background-color: #ff7f50;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
 }
-@media (min-width: 600px) {
-  .navigation {
-    flex: 1;
-  }
-}
-@media (min-width: 900px) {
-  .navigation {
-    flex: 1;
-  }
-}
-
-.products-list {
+.products__products-list {
   background-color: #006400;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
 }
-@media (min-width: 600px) {
-  .products-list {
-    flex: 2;
-  }
-}
-@media (min-width: 900px) {
-  .products-list {
-    flex-basis: 33.3333333333vw;
-  }
+.products__news {
+  background-color: #0ff;
+  min-height: 200px;
+  display: flex;
+  flex: 1;
 }
 
-.news {
-  background-color: #0ff;
-}
-@media (min-width: 900px) {
-  .news {
+@media (min-width: 600px) {
+  .products {
+    display: flex;
     flex: 1;
   }
 }
-
-.title {
-  font-family: Verdana, sans-serif;
-  text-transform: lowercase;
-  background-color: #faebd7;
-  border-radius: 4px;
-  padding: 8px;
+@media (min-width: 900px) {
+  .content {
+    display: flex;
+    flex: 1;
+  }
+}
+span {
   margin: auto;
+  background-color: #faebd7;
+  padding: 8px;
+  border-radius: 4px;
+  text-transform: lowercase;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */
